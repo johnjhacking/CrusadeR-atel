@@ -1,0 +1,330 @@
+QDialog {
+    background: #e0b143;
+    color: black;
+}
+
+QWidget {
+    background-color: #e0b143;
+    color: white;
+    selection-background-color: #000000;
+    font-size: 9pt;
+}
+
+QHeaderView::section {
+    padding: 5px;
+    color: black;
+    background: #d29d3b;
+    font-size: 9pt;
+}
+
+QTabWidget {
+    background-color: #000000;
+    color: white;
+    selection-background-color: #d29d3b;
+    font-size: 9pt;
+}
+
+QTabWidget:disabled {
+    background-color: grey;
+    color: grey;
+}
+
+QTabBar:tab {
+    background: #000000;
+    color: white;
+    border: 1px solid #d29d3b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+QTabBar:tab:selected {
+    background: #d29d3b;
+    color: black;
+}
+
+QToolButton {
+    padding: 5px;
+    background: #000000;
+    color: white;
+    border-radius: 7px;
+    font-size: 9pt;
+}
+
+QToolButton:pressed {
+    background-color: #d29d3b;
+    font-size: 9pt;
+}
+
+QMenu {
+    padding: 5px;
+    selection-background-color: #d29d3b;
+    background-color: #000000;
+    color: white;
+    icon-size: 16px;
+    font-family: Monospace;
+    font-size: 9pt;
+    border: 1px solid #d29d3b;
+}
+
+QMenu:item:selected {
+    color: black;
+}
+
+QLabel {
+    background: none;
+    font-family: Monospace;
+    font-size: 9pt;
+    color: white;
+}
+
+QDockWidget {
+    background-color: #000000;
+    selection-background-color: #f5f5f5;
+    color: white;
+    font-size: 9pt;
+}
+
+QDockWidget:title {
+    position: relative;
+    text-align: center;
+}
+
+QTableWidget {
+    background: #000000;
+    color: white;
+    font-family: Monospace;
+    selection-background-color: #d29d3b;
+    font-size: 9pt;
+}
+
+QTableWidget:item {
+    padding: 5px;
+    background-color: #000000;
+}
+
+QTableWidget:item:selected {
+    background-color: #d29d3b;
+    color: black;
+}
+
+QStatusBar {
+    background-color: rgba(0, 0, 0, 0);
+    selection-background-color: #000000;
+    color: white;
+}
+
+QGroupBox {
+    background: #000000;
+    color: white;
+    selection-background-color: white;
+    border: none;
+}
+
+QGroupBox:disabled {
+    background-color: #000000;
+}
+
+QPlainTextEdit {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+    font-size: 9pt;
+}
+
+QLineEdit {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+    font-size: 9pt;
+}
+
+QComboBox {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+    font-size: 9pt;
+}
+
+QSpinBox {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+    font-size: 9pt;
+}
+
+QWebEngineView {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+}
+
+QPushButton {
+    padding: 5px;
+    background-color: #000000;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #d29d3b;
+}
+
+QCheckBox {
+    background: none;
+    color: white;
+    font-size: 9pt;
+}
+
+QCheckBox:indicator:checked {
+    background-color: #d29d3b;
+    border: 2px solid black;
+}
+
+QCheckBox:indicator:unchecked {
+    background-color: white;
+    border: 2px solid black;
+}
+
+QRadioButton {
+    background: none;
+    color: white;
+    font-size: 9pt;
+}
+
+QRadioButton::indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #d29d3b;
+    border: 2px solid black;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color: white;
+    border: 2px solid black;
+}
+
+QTreeWidget {
+    outline: 0;
+    background: #000000;
+    font-size: 9pt;
+}
+
+QTreeWidget::item {
+    padding: 5px;
+    background: #000000;
+    border: 0.5px solid white;
+}
+
+QTreeWidget::item:selected {
+    background-color: #d29d3b;
+    color: black;
+}
+
+QListWidget {
+    outline: 0;
+    background: #000000;
+    font-size: 9pt;
+}
+
+QListWidget::item {
+    background: #000000;
+    color: white;
+    font-size: 9pt;
+}
+
+QListWidget::item:selected {
+    background-color: #d29d3b;
+    color: black;
+}
+
+QTextBrowser {
+    padding: 5px;
+    background: #000000;
+    color: white;
+    selection-background-color: #d29d3b;
+    font-size: 9pt;
+}
+
+QTextEdit:enabled {
+    padding: 5px;
+    background: #000000;
+    color: white;
+    selection-background-color: #d29d3b;
+    font-size: 9pt;
+    background-image: url("C:/opt/CrusadeR-atel/darkness.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 100%; 
+}
+
+QTextEdit:disabled {
+    background: grey;
+    color: black;
+    background-image: none;
+}
+
+QLabel#label_status {
+    background: none;
+    font-family: Monospace;
+    color: #d29d3b;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+QLabel#label_error {
+    background: none;
+    color: red;
+    font-size: 9pt;
+}
+
+QTreeWidget#treeWidget_lstree::item:has-children {
+    border-right: 10px solid #000000;
+    background-color: #8e6e19;
+}
+
+QTableWidget#tableWidget_pstree::item {
+    padding: 5px;
+    border-right: 1px solid #d29d3b;
+    border-left: 1px solid #d29d3b;
+}
+
+QTableWidget#tableWidget_lstree:item {
+    padding: 5px;
+    border-right: 1px solid #d29d3b;
+    border-left: 1px solid #d29d3b;
+}
+
+QLineEdit#lineEdit_cmd {
+    background-color: #000000;
+    selection-background-color: #d29d3b;
+    color: white;
+    font-size: 9pt;
+}
+
+QLineEdit#lineEdit_terminal_cwd,
+QLineEdit#lineEdit_terminal_sleep,
+QLineEdit#lineEdit_terminal_user,
+QLineEdit#lineEdit_terminal_socks,
+QLineEdit#lineEdit_terminal_rportfwd {
+    background-color: #4d3b19;
+    selection-background-color: #301f10;
+    color: #a8a8a8;
+    font-size: 9pt;
+}
+
+QTreeWidget#treeWidget_interfaces:has-children::item:selected {
+    background-color: #d29d3b;
+}
+
+QTreeWidget#treeWidget_interfaces:item:selected {
+    background-color: #d29d3b;
+}
+
+QStatusBar QLabel {
+    color: black;
+}
